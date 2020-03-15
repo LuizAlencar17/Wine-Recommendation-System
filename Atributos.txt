@@ -1,0 +1,815 @@
+
+   "color"()
+   {
+      1 - Tinto
+      2 - Branco
+      3 - Rosé
+      4 - Espumante
+      5 - Frisante
+   }
+
+   "Sweetness"()
+   {
+      1 - Seco
+      2 - Semi-Seco
+      3 - Meio-Seco
+      4 - Suave
+      5 - Doce
+   }
+
+   "Acidity"
+   {
+      1 - Baixo
+      2 - meio-baixo
+      3 - Médio
+      4 - meio-alto
+      5 - Alto
+   }
+
+   "Tannins"
+   {
+      1 - Baixo
+      2 - meio-baixo
+      3 - Médio
+      4 - meio-alto
+      5 - Alto
+   }
+
+   "Alcohol"
+   {
+      1 - Baixo
+      2 - meio-baixo
+      3 - Médio
+      4 - meio-alto
+      5 - Alto
+   }
+
+   "colorpo"
+   {
+      1 - Baixo
+      2 - meio-baixo
+      3 - Médio
+      4 - meio-alto
+      5 - Alto
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   [
+   {
+      "id":1,
+      "name":"Defesa do Esporão Rosé 2016",
+      "description":"Rosé com aromas de frutas vermelhas, traços herbáceos e paladar de colorpo leve para médio, com boa Acidity e Tannins quase imperceptíveis. Elaborado pela renomada vinícola Esporão, tem perfil contemporâneo e fácil de gostar. Seu name refere-se a uma das mais antigas propriedades do sul de Portugal, a Defesa do Esporão.",
+      "color": 3,
+      "Sweetness": 1,
+      "Acidity": 4,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 57.07
+   },
+   {
+      "id":2,
+      "name":"Canepa Novísimo Rosé 2018",
+      "description":"Esse exemplar compõe a linha Novísimo da Viña Canepa, cujos wines são fáceis de beber e são ideais para harmonizar com ocasiões ou pratos cotidianos.",
+      "color": 3,
+      "Sweetness": 3,
+      "Acidity": 3,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 34.90
+   },
+   {
+      "id":3,
+      "name":"Garriguette Rosé",
+      "description":"Um rosé característico da França, um colorte tradicional igual ao dos grandes rosés de Provence que traz o frescolor e toda a elegância da região.",
+      "color": 3,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 42.00
+   },
+   {
+      "id":4,
+      "name":"Urmeneta Rosé 2018",
+      "description":"A centenária vinícola Urmeneta mostra todo seu potencial e expertise ao elaborar este exemplar. Produzido com as uvas tintas de origem francesa Cabernet Sauvignon e Merlot no famoso terroir do Valle Central e vinificado em rosé é um convite ao brinde aos momentos do cotidiano.",
+      "color": 3,
+      "Sweetness": 1,
+      "Acidity": 3,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 39.90
+   },
+   {
+      "id":5,
+      "name":"Palafitos de Mar Semi Sweet Rosé Cabernet Sauvignon/Syrah 2019",
+      "description":"description",
+      "color": 3,
+      "Sweetness": 3,
+      "Acidity": 3,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 39.90
+   },
+   {
+      "id":6,
+      "name":"Marechal Collection Rosé",
+      "description":"Grenache, Carignan e Syrah se unem em um rosé leve, convidativo, versátil e muito saboroso. Francês, é fácil de agradar e de harmonizar.",
+      "color": 3,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 36.00
+   },
+   {
+      "id":7,
+      "name":"Espumante Séries By Salton Brut",
+      "description":"As castas Ugni Blanc e Prosecco formam o blend deste espumante. À boca, você pode esperar um wine leve, cremoso e com Acidity agradável. Já ao nariz, uma surpresa sensorial de aromas, como os de banana, flores brancas, frutas frescas, lima e maçã!",
+      "color": 4,
+      "Sweetness": 1,
+      "Acidity": 3,
+      "Tannins": 4,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 31.00
+   },
+   {
+      "id":8,
+      "name":"Espumante Séries By Salton Demi-Sec",
+      "description":"Aposte neste espumante! Gran Legado, localizada no Vale dos Vinhedos, no sul do Brasil, é a vinícola que assina o rótulo. Vale destacar que recebeu Recommendedção honrosa na IWC International Wine Challenge, evento de destaque no mundo dos wines.",
+      "color": 4,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 4,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 40.40
+   },
+   {
+      "id":9,
+      "name":"Espumante Gran Legado Brut",
+      "description":"Um espumante que vem direto da famosa região italiana do Piemonte e que promete ganhar seu coloração à primeira taça, este é o Malizia Brut. É elaborado por meio do método Charmat, que realiza as duas fermentações em tanques de aço inox - essa técnica ajuda a preservar as características naturais da uva. Um exemplar que você precisa conhecer!",
+      "color": 4,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 4,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 39.40
+   },
+   {
+      "id":10,
+      "name":"Espumante Malizia Brut",
+      "description":"Uma explosão de frutas em boca como maçã verde e damasco! Um espumante surpreendente e fresco!",
+      "color": 4,
+      "Sweetness": 2,
+      "Acidity": 2,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 41.90
+   },
+   {
+      "id":11,
+      "name":"Rasante Espumante",
+      "description":"Uma explosão de frutas em boca como maçã verde e damasco! Um espumante surpreendente e fresco!",
+      "color": 4,
+      "Sweetness": 2,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 41.90
+   },
+   {
+      "id":12,
+      "name":"Frisante Villa Feudale I.G.T. Lambrusco dell'Emilia Bianco Amabile Suave",
+      "description":"Uma explosão de frutas em boca como maçã verde e damasco! Um espumante surpreendente e fresco!",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 26.90
+   },
+   {
+      "id":13,
+      "name":"Salton Lunae Rosé Demi-Sec",
+      "description":"As uvas Cabernet Sauvignon e a Moscato formam o mix perfeito aqui. Salton Lunae Rosé Demi-Sec é um frisante que passa pelo amadurecimento em tanques de aço inox, processo que ajuda a preservar as características naturais das uvas. À boca tem colorpo leve, boa Acidity e Sweetness discreta. Ao nariz, cereja, flores brancas, framboesa, morango e rosas. ",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 23.90
+   },
+   {
+      "id":14,
+      "name":"Frisante Villa Feudale I.G.T. Lambrusco dell'Emilia Rosso Amabile Suave",
+      "description":"Com um estilo fácil de beber, este rótulo expressa a experiência da Chiarli, um dos productres mais antigos de frisantes da Itália.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 26.90
+   },
+   {
+      "id":15,
+      "name":"Seremos Sauvignon Blanc 2019",
+      "description":"De vinhedos selecionados de Mendoza e colheita manual, trata-se de um Sauvignon Blanc de qualidade e frescolor.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 26.90
+   },
+   {
+      "id":16,
+      "name":"Seremos Torrontés 2019",
+      "description":"Branco descomplicado para qualquer momento de uma casta muito famosa na Argentina, local onde encontrou seu terroir.",
+      "color": 2,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 26.90
+   },
+   {
+      "id":17,
+      "name":"Canepa Novísimo Sauvignon Blanc 2018",
+      "description":"Fácil de beber e de harmonizar, esse wine traz a expressão da Sauvignon Blanc cultivada no terroir chileno. Essa variedade originária da França destaca o toque herbáceo como uma de suas principais características.",
+      "color": 5,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 34.90
+   },
+   {
+      "id":18,
+      "name":"Garriguete Branco",
+      "description":"Localizado no coloração do sul da Côtes du Rhône, o exclusivo Vignerons de l'Enclave oferece uma ampla variedade do vale do Ródano, de acolordo com as expectativas específicas dos consumidores de hoje.",
+      "color": 5,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 42.90
+   },
+   {
+      "id":19,
+      "name":"Secreto Eterno Sauvignon Blanc 2018",
+      "description":"Produzido no chileno Valle Central, este wine com um estilo frutado e fácil de beber, traz a Sauvignon Blanc, uma uva branca de origem francesa. O fato de não ter sido submetido a nenhum tipo de amadurecimento, preservou as características naturais da variedade.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 33.90
+   },
+   {
+      "id":20,
+      "name":"San Ceteo Traviata",
+      "description":"Ao longo dos anos e gerações, nunca faltou paixão e determinação. Ettore reuniu a experiência do passado e continuou os negócios da família com forte dedicação. Embora sempre atento ao respeito pela tradição, enfatizou a inovação tecnológica, obtendo melhorias tanto na coleta de uvas quanto na produção de wine .",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 34.00
+   },
+   {
+      "id":21,
+      "name":"Canepa Novísimo Chardonnay 2018",
+      "description":"A linha Novísimo, da Viña Canepa dá origem a wines convidativos, jovens e modernos, ideais para all os momentos, tendo a tradição e experiência da vinícola como garantia de qualidade.",
+      "color": 5,
+      "Sweetness": 2,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 34.90
+   },
+   {
+      "id":22,
+      "name":"Wanaco Sauvignon Blanc 2018",
+      "description":"Esse Sauvignon Blanc deve ser resfriado para ser melhor apreciado. É leve, jovem e fácil de beber. É uma ótima pedida para quem está entrando no mundo do wine.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 32.00
+   },
+   {
+      "id":23,
+      "name":"Paine Sauvignon Blanc 2018",
+      "description":"Com um estilo fácil de beber, indicado para quem está iniciando no mundo do wine ou para quem busca rótulos para o dia a dia, esse branco traz a uva Sauvignon Blanc. O rótulo, ilustra o Parque Nacional de Torres del Paine e as cores que o céu da região possui durante o outono.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 27.00
+   },
+   {
+      "id":24,
+      "name":"Salton Virtude Chardonnay Branco 2017",
+      "description":"Elaborado 100% com uvas da variedade Chardonnay colhidas manualmente e selecionadas no vinhedo. Passa por uma segunda seleção manual de cachos e grãos ao chegar na vinícola. É fermentado em barricas de carvalho francês e norte-americano, com amadurecimento de seis meses nas próprias barricas, em contato com as leveduras. Um branco de respeito, com mais colorpo e estrutura mas sem perder o frescolor!",
+      "color": 5,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 4,
+      "price": 109.90
+   },
+   {
+      "id":25,
+      "name":"Cuatro Elementos Chardonnay 2018",
+      "description":"Elaborado 100% com uvas da variedade Chardonnay colhidas manualmente e selecionadas no vinhedo. Passa por uma segunda seleção manual de cachos e grãos ao chegar na vinícola. É fermentado em barricas de carvalho francês e norte-americano, com amadurecimento de seis meses nas próprias barricas, em contato com as leveduras. Um branco de respeito, com mais colorpo e estrutura mas sem perder o frescolor!",
+      "color": 5,
+      "Sweetness": 2,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 24.90
+   },
+   {
+      "id":26,
+      "name":"Rasante Chardonnay 2019",
+      "description":"Este exemplar é uma excelente escolha para os dias quentes, praia, piscina! Refrescante no paladar e bem frutado!",
+      "color": 5,
+      "Sweetness": 2,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 41.90
+   },
+   {
+      "id":27,
+      "name":"Pancas Branco 2017",
+      "description":"Produzido em Lisboa, esse branco mescla três differents variedades, a Arinto, Fernão Pires e Vital. Com amadurecimento apenas em tanques de aço inox para preservar as características naturais das uvas, esse wine possui um estilo frutado e fácil de beber.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 39.90
+   },
+   {
+      "id":28,
+      "name":"Altivo Classic Chardonnay 2018",
+      "description":"Este exemplar é uma excelente escolha para os dias quentes, praia, piscina! Refrescante no paladar e bem frutado!",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 49.90
+   },
+   {
+      "id":29,
+      "name":"Encostas da Ribeira D.O.C. wine Verde",
+      "description":"Típico de Portugal, o wine verde é o toque de leveza que faltava ao seu lado! Esse rótulo traz aquela sensação de frescolor que a gente busca em um dia quente, por exemplo, e é uma ótima aposta pra acompanhar comidas leves e até petiscos. Abra esse wine na companhia dos amigos e não se arrependa",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 34.90
+   },
+   {
+      "id":30,
+      "name":"Urmeneta Chardonnay 2019",
+      "description":"Típico de Portugal, o wine verde é o toque de leveza que faltava ao seu lado! Esse rótulo traz aquela sensação de frescolor que a gente busca em um dia quente, por exemplo, e é uma ótima aposta pra acompanhar comidas leves e até petiscos. Abra esse wine na companhia dos amigos e não se arrependa",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 34.90
+   },
+   {
+      "id":31,
+      "name":"Estrella de Pascua Sauvignon Blanc 2019",
+      "description":"Você está prestes a se aventurar na descoberta de um wine chileno que foi produzido no Valle Central. Em sua embalagem, há menção aos famosos Moais, da Ilha de Páscoa. O destaque maior, no entanto, vai para o sabor! Com esse exemplar, você terá a oportunidade de provar a qualidade de um maravilhoso wine branco.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 26.90
+   },
+   {
+      "id":32,
+      "name":"Palafitos de Mar Semi Sweet Sauvignon Blanc 2019",
+      "description":"Com uma colheita mista, ou seja, manual e com máquina, a fermentação ocolorre com leveduras selecionadas, resultando em um wine leve e fresco! Um branco para qualquer ocasião!",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 39.90
+   },
+   {
+      "id":33,
+      "name":"Sovento Chardonnay 2018",
+      "description":"Refrescante e com colorpo! Um branco para beber sozinho ou com um bom prato leve!",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 3,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 39.90
+   },
+   {
+      "id":34,
+      "name":"Bonne Esperance White",
+      "description":"Um belo exemplar de refrescância do África do Sul, ideal para momentos descompromissados, jantares descontraídos, happy hour, piscina e praia.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 39.90
+   },
+   {
+      "id":35,
+      "name":"Sovento Sauvignon Blanc 2018",
+      "description":"Branco descomplicado para beber geladinho na piscina, em dias quentes. Frescolor e fruta marcam o wine.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 39.90
+   },
+   {
+      "id":36,
+      "name":"Viña de Santa Isabel Chardonnay 2019",
+      "description":"description",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 29.90
+   },
+   {
+      "id":37,
+      "name":"Alfacinha RL Branco 2018",
+      "description":"Alfacinha nasce para homenagear as tradições populares de Lisboa Antes de ser um wine é uma alcunha que surge em meados do século XIX, na prestigiada obra “Viagens na Minha Terra” de Almeida Garrett, e que hoje é reconhecida em qualquer parte do mundo.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 25.90
+   },
+   {
+      "id":38,
+      "name":"Seremos Chardonnay 2019",
+      "description":"Chardonnay equilibrado e saboroso! Vinícola de colheita manual garantindo o frescolor da uva e a qualidade. ",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 26.90
+   },
+   {
+      "id":39,
+      "name":"Cuatro Elementos Sauvignon Blanc 2018",
+      "description":"Esse rótulo é a oportunidade ideal para conhecer os wines brancos do Uruguai, um país que vai muito além da sua uva emblemática, a tinta Tannat (que também é uma delícia)! Nós somos apaixonados pela Sauvignon Blanc, e como não ser? Ela é sinônimo de leveza e frescolor, e conquista admiradores do mundo inteiro. A França é berço dessa uva, mas é possível encontrá-la também em outros países, como Chile, África do Sul, Estados Unidos, Itália, entre outros.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 41.90
+   },
+   {
+      "id":40,
+      "name":"Gérard Bertrand Gran Terroir A.O.P. Coteaux du Languedoc Branco",
+      "description":"Como os demais wines da linha Grand Terroir, de Gérard Bertrand, este exemplar convida a descobrir a elegância, complexidade e riqueza da denominação La Clape, no Languedoc ao sul da França.",
+      "color": 5,
+      "Sweetness": 2,
+      "Acidity": 2,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 3,
+      "price": 89.90
+   },
+   {
+      "id":41,
+      "name":"Inspiración Blanc 2018",
+      "description":"Um wine branco de respeito. Assim podemos começar nossa conversa sobre Inspiración Blanc 2018. Suas raízes são do Chile, um dos maiores productres de todo o mundo e também grande exportador entre as Américas. Por aí, você já entende que de onde este rótulo vem, já é um forte indício de qualidade! E é exatamente isso que encontrará. Um wine com maravilhoso custo-benefício, prontinho para te surpreender.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 22.90
+   },
+   {
+      "id":42,
+      "name":"Viña de Santa Isabel Chardonnay 2018",
+      "description":"Já começamos com uma coloroa em cena, já que este wine branco traz em destaque a Chardonnay, considerada a rainha das uvas brancas. Ele vem de Mendoza para terras brasileiras, com o objetivo de encantar. Uma das grandes experiências que um wine com esta uva pode nos oferecer é a oportunidade de desbravar os sentidos. Este, em especial, proporciona sensações incríveis a partir do aroma. Toques de flores brancas e frutas amarelas frescas se sobressaem. Para quem tem o olfato mais sensível, temos a certeza de que sentir o cheirinho, no mínimo, será delicioso!",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 1,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 24.90
+   },
+   {
+      "id":43,
+      "name":"Marechal Collection Blanc",
+      "description":"Elaborado com as uvas Ugni Blanc, Colombard, Gros Manseng e Sauvignon Blanc, esse exemplar é fácil de beber e ideal para momentos e harmonizações cotidianas.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 36.90
+   },
+   {
+      "id":44,
+      "name":"Viña de Santa Isabel Chardonnay 2018",
+      "description":"Hunter and Fox Sauvignon Blanc 2017.",
+      "color": 5,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 39.90
+   },
+   {
+      "id":45,
+      "name":"Sovento Syrah 2018",
+      "description":"Um Syrah elegante em boca, preserva bem o frescolor da fruta! Tannins elegantes que tornam o wine mais estruturado.",
+      "color": 1,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 1,
+      "price": 39.90
+   },
+   {
+      "id":46,
+      "name":"Secreto Eterno Carménère 2018",
+      "description":"Com um estilo que pode ser degustado sozinho ou harmonizado, este tinto traz a uva emblemática do Chile, a Carménère, com uma pequena parcela de Mission, uma uva tinta que também é conhecida como País.",
+      "color": 1,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 3,
+      "price": 33.90
+   },
+   {
+      "id":47,
+      "name":"Baron Philippe de Rothschild Carménère 2018",
+      "description":"Com um estilo versátil, este tinto pode ser degustado sozinho ou harmonizado, com pratos do dia a dia e petiscos. Elaborado com a uva emblemática do Chile, esse rótulo expressa a expertise da família francesa Rothschild, um dos maiores names do mundo do wine.",
+      "color": 1,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 29.00
+   },
+   {
+      "id":48,
+      "name":"Altivo Classic Tempranillo 2018",
+      "description":"Versátil e fácil de beber, esse wine traz a Tempranillo, uma uva de origem espanhola que expressa nesse rótulo a sua boa adaptação no terroir mendocino.",
+      "color": 1,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 42.70
+   },
+   {
+      "id":49,
+      "name":"Viña Mercedes D.O. Tierra de Castilla Cabernet Sauvignon 2018",
+      "description":"Este tinto que possui um estilo que agrada com facilidade, é assinado pela Bodegas Fernando Castro, que começou a escrever sua história no mundo do wine em 1850.",
+      "color": 1,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 44.90
+   },
+   {
+      "id":50,
+      "name":"Secreto Eterno Cabernet Sauvignon 2018",
+      "description":"Este exemplar mescla a Cabernet Sauvignon com uma pequena parcela de Mission, uma uva tinta que no Chile também é conhecida como País. Macio, esse wine destaca fruta e delicadas notas provenientes da madeira.",
+      "color": 1,
+      "Sweetness": 2,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 3,
+      "price": 33.90
+   },
+   {
+      "id":51,
+      "name":"Faisán Merlot 2018",
+      "description":"Este tinto que possui um estilo que agrada com facilidade, é assinado pela Bodegas Fernando Castro, que começou a escrever sua história no mundo do wine em 1850.",
+      "color": 1,
+      "Sweetness": 1,
+      "Acidity": 1,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 22.90
+   },
+   {
+      "id":52,
+      "name":"Passión Arte D.O. Jumilla Garnacha 2018",
+      "description":"Pássion Arte é uma linha de wines bastante interessante que retrata a pequenina região de Jumilla, na Espanha. Esse é um 100% Garnacha, uva tinta que se adaptou muito bem ao clima bem seco de lá.",
+      "color": 1,
+      "Sweetness": 3,
+      "Acidity": 3,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 3,
+      "price": 49.90
+   },
+   {
+      "id":53,
+      "name":"Viña Mercedes IGP Vino de la Tierra de Castilla Pinot Noir 2018",
+      "description":"Um Pinot Noir de personalidade única, Tem como origem a região de Castilla La Mancha, Espanha, onde é elaborado por um principais productres locais, Bodegas Fernando Castro.",
+      "color": 1,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 44.90
+   },
+   {
+      "id":54,
+      "name":"Cuatro Elementos Canelones Cabernet Sauvignon 2018",
+      "description":"Produzido em uma das principais regiões vitivinícolas do Uruguai, esse wine traz a Cabernet Sauvignon, uma uva de origem francesa conhecida por sua versatilidade, pois consegue se adaptar bem em differents terroirs.",
+      "color": 1,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 26.90
+   },
+   {
+      "id":55,
+      "name":"Urmeneta Merlot 2018",
+      "description":"Este tinto que possui um estilo que agrada com facilidade, é assinado pela Bodegas Fernando Castro, que começou a escrever sua história no mundo do wine em 1850.",
+      "color": 1,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 39.90
+   },
+   {
+      "id":56,
+      "name":"Concha y Toro Nuevo Extremo Merlot 2019",
+      "description":"Produzido pelo renomado grupo Concha y Toro, este tinto é elaborado com uvas cultivadas no Valle Central, uma das regiões vitivinícolas mais importantes do Chile. ",
+      "color": 1,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 35.90
+   },
+   {
+      "id":57,
+      "name":"Viña Mercedes I.G.P. Vino de la Tierra de Castilla Syrah 2018",
+      "description":"Para os amantes de Syrah, aqui está um exemplar super prático e frutado! Um espanhol que traz Tannins finos e final saboroso.",
+      "color": 1,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 3,
+      "price": 44.90
+   },
+   {
+      "id":58,
+      "name":"Cuatro Elementos Canelones Merlot 2018",
+      "description":"wine super fácil de beber, agradável, macio e levemente frutado.",
+      "color": 1,
+      "Sweetness": 1,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 26.90
+   },
+   {
+      "id":59,
+      "name":"Marqués De Somera Tempranillo 2018",
+      "description":"Com um estilo jovem e fácil de beber, esse wine traz a Tempranillo, umas das principais uvas tintas da Espanha. Amadurecido apenas em tanques de aço inox, para preservar as características naturais da uva, esse rótulo é produzido em Cariñena, uma região vitivinícola localizada no norte do país. ",
+      "color": 1,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 3,
+      "Alcohol": 1,
+      "colorpo": 3,
+      "price": 41.90
+   },
+   {
+      "id":60,
+      "name":"Concha y Toro Nuevo Extremo Valle Central Cabernet Sauvignon 2019",
+      "description":"Produzido pelo renomado grupo Concha y Toro, este tinto é elaborado com uvas cultivadas no Valle Central, uma das regiões vitivinícolas mais importantes do Chile. ",
+      "color": 1,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 42.90
+   },
+   {
+      "id":61,
+      "name":"Viña Mercedes Tempranillo 2018",
+      "description":"Tempranillo bem frutado, agradável e saboroso!",
+      "color": 1,
+      "Sweetness": 2,
+      "Acidity": 3,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 44.90
+   },
+   {
+      "id":62,
+      "name":"Cuatro Elementos Tannat 2018",
+      "description":"Com um estilo que agrada com facilidade, esse wine traz a Tannat, uma uva tinta de origem francesa, mas que ganhou visibilidade mundial quando cultivada no Uruguai, se tornando a variedade emblemática do país.",
+      "color": 1,
+      "Sweetness": 2,
+      "Acidity": 2,
+      "Tannins": 2,
+      "Alcohol": 1,
+      "colorpo": 2,
+      "price": 26.90
+   }
+]
